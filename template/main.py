@@ -3,8 +3,8 @@ FastAPI
 """
 
 from fastapi import FastAPI
-from TEMPLATE.commons.logger import get_logger
-from TEMPLATE.pydantic.holders import Example, Status
+from template.commons.logger import get_logger
+from template.pylidate.holders import Example, Status
 
 logger = get_logger('main.py')
 logger.info(Example.schema_json())

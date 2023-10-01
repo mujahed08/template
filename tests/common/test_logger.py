@@ -1,4 +1,4 @@
-from TEMPLATE.commons.logger import get_logger
+from template.commons.logger import get_logger
 
 def test_get_logger():
     logger = get_logger('test')
